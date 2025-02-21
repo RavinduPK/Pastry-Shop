@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pastry Shop-Contact Us</title>
+  <link rel="stylesheet" href="ContactUs.css">
+</head>
+
+<body style="background-color:  #f9f7f1 ;">
+  <nav>
+    <ul>
+      <li><a href="ContactUs.html"><b>Contact Us</b></a></li>
+      <li><a href="Product.html"><b>Products</b></a></li>
+      <li><a href="Home.html"><b>Home</b></a></li>
+    </ul>
+  </nav>
+
+  <h1>Contact Us</h1>
+
+
+  <form action="/action_page.php">
+    <label for="First Name">First Name :</label>
+    <input type="text" id="First Name" style="background-color:  #fff8e1;"><br><br>
+
+    <label for="Last Name">Last Name :</label>
+    <input type="text" id="Last Name" style="background-color:  #fff8e1;"><br><br>
+
+    <label for="Gender" style="cursor: pointer;">Gender :</label>
+
+    <input type="radio" id="Female" value="Female" style="background-color:  #fff8e1;" name="gender">
+    <lable for="Female" style="cursor: pointer;">Female</lable>
+
+    <input type="radio" id="Male" value="Male" style="background-color:  #fff8e1;" name="gender">
+    <lable for="Male" style="cursor: pointer;">Male</lable><br><br>
+
+    <label for="pastry">Select your favourite pastry :</label>
+    <select id="pastry">
+      <option value="option">select an option</option>
+      <option value="cakes">Cakes</option>
+      <option value="cookies">Cookies</option>
+      <option value="muuffins">Muffins</option>
+    </select>
+
+    <br>
+
+    <h4>Text area</h4>
+    <textarea name="message" rows="4" cols="50" style="background-color:  #fff8e1;">Your Message</textarea>
+    <br><br>
+
+    <fieldset>
+      <legend>Pastry Shop Feedback</legend>
+
+      <label for="Menu">Your Favourite item in Our Menu :</label>
+      <input type="text" id="Menu" placeholder="E.g. Chocolate Cake" style="background-color:  #fff8e1;">
+      <br><br>
+
+      <label for="Rate"> Rate your Last Visit (1 to 5) :</label>
+      <select id="rate">
+        <option value="poor">1-poor</option>
+        <option value="poor">2-good</option>
+        <option value="poor">3-nice</option>
+        <option value="poor">4-exellent</option>
+        <option value="poor">5-great</option>
+      </select>
+
+    </fieldset>
+
+    <br>
+    <input type="button" value="submit" style="background-color:  #ffbb33; cursor: pointer; font-size: 17px;">
+    <input type="button" value="reset" style="background-color:  #ffbb33;cursor: pointer;font-size: 17px;">
+
+
+
+
+  </form>
+
+  <br>
+  <br><br><br><br><br>
+
+  <footer class="footer">
+    <p>&copy; 2025 The Pastry Shop. All Rights Reserved.</p>
+  </footer>
+
+
+</body>
+
+</html>
